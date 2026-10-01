@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Chroma DB and Local Data
+data/chroma/
+data/samples/*.epub
+
+# OS and IDE
+.DS_Store
+.idea/
+.vscode/
